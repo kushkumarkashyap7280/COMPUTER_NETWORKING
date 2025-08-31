@@ -40,11 +40,28 @@ Each day's folder contains detailed README files with:
 - Network Topologies
 - Network Infrastructure Implementations
 
+### Week 2
+
+#### [Day 6: Introduction to IPv4](/day_006/README.md)
+- Introduction to IPv4 (Part 1)
+- Introduction to IPv4 (Part 2)
+
+#### [Day 7: Introduction to IPv6](/day_007/README.md)
+- Introduction to IPv6
+
+#### [Day 8: Special IP Networking Concepts](/day_008/README.md)
+- Special IP Networking Concepts
+
+#### [Day 9: Introduction to Routing Concepts](/day_009/README.md)
+- Introduction to Routing Concepts (Part 1)
+- Introduction to Routing Concepts (Part 2)
+
+#### [Day 10: Introduction to Routing Protocols](/day_010/README.md)
+- Introduction to Routing Protocols
+
 ### Coming Soon
 
 Future days will cover:
-- Introduction to IPv4 and IPv6
-- Routing Concepts and Protocols
 - Unified Communications
 - Virtualization Technologies
 - Cloud Concepts
