@@ -59,16 +59,37 @@ Each day's folder contains detailed README files with:
 #### [Day 10: Introduction to Routing Protocols](/day_010/README.md)
 - Introduction to Routing Protocols
 
-### Coming Soon
+### Week 3
 
-Future days will cover:
-- Unified Communications
-- Virtualization Technologies
-- Cloud Concepts
-- Network Implementation and Monitoring
-- Network Security
-- Troubleshooting
-- And much more!
+#### [Day 11: Unified Communications](/day_011/README.md)
+- Voice and Video Technologies
+- Collaboration Solutions
+- QoS Concepts
+
+#### [Day 12: Virtualization Technologies](/day_012/README.md)
+- Server Virtualization
+- Network Virtualization
+- Storage Virtualization
+- Desktop Virtualization
+- Application Virtualization
+
+#### [Day 13: Cloud Computing & SDN](/day_013/README.md)
+- Cloud Service Models
+- Cloud Deployment Models
+- Software-Defined Networking (SDN)
+- Network Function Virtualization (NFV)
+
+#### [Day 14: Network Security](/day_014/README.md)
+- Network Security Fundamentals
+- Security Devices and Solutions
+- Cryptography and VPNs
+- Security Policies and Best Practices
+
+#### [Day 15: Network Troubleshooting and Future Trends](/day_015/README.md)
+- Network Troubleshooting Methodology
+- Troubleshooting Tools
+- Common Network Issues
+- Future Networking Trends
 
 ## How to Use This Repository
 
