@@ -38,6 +38,7 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
       <td align="center"><a href="./day_009/README.md"><img src="https://img.shields.io/badge/Day%209-Network%20Devices-lightgrey" alt="Day 9"></a></td>
       <td align="center"><a href="./day_010/README.md"><img src="https://img.shields.io/badge/Day%2010-Detailed%20Protocols-blue" alt="Day 10"></a></td>
       <td align="center"><a href="./day_011/README.md"><img src="https://img.shields.io/badge/Day%2011-HTTP%20%26%20Sockets-purple" alt="Day 11"></a></td>
+      <td align="center"><a href="./day_012/README.md"><img src="https://img.shields.io/badge/Day%2012-Email%20%26%20SMTP-orange" alt="Day 12"></a></td>
     </tr>
   </table>
 </div>
@@ -132,6 +133,15 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
   - RESTful API design principles
   - Practical code examples for HTTP and sockets
 
+- [Day 12: Email Communication Systems](./day_012/README.md)
+  - Email architecture and system components
+  - SMTP protocol and server operations
+  - MX records and DNS in email routing
+  - POP3 and IMAP email retrieval protocols
+  - MIME for handling attachments and non-text content
+  - Email security and authentication (SPF, DKIM, DMARC)
+  - End-to-end email workflow
+  - Modern email challenges and solutions
 
 ## How to Use This Course
 
