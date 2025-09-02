@@ -20,8 +20,6 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Client-server-model.svg/800px-Client-server-model.svg.png" width="400" alt="Network Diagram">
 </div>
 
-### Week 1: Fundamentals and Protocols
-
 <div align="center">
   <table>
     <tr>
@@ -29,6 +27,7 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
       <td align="center"><a href="./day_002/README.md"><img src="https://img.shields.io/badge/Day%202-Protocols-orange" alt="Day 2"></a></td>
       <td align="center"><a href="./day_003/README.md"><img src="https://img.shields.io/badge/Day%203-IP%20%26%20Ports-green" alt="Day 3"></a></td>
       <td align="center"><a href="./day_004/README.md"><img src="https://img.shields.io/badge/Day%204-Network%20Types-red" alt="Day 4"></a></td>
+      <td align="center"><a href="./day_005/README.md"><img src="https://img.shields.io/badge/Day%205-Hardware%20%26%20Topologies-purple" alt="Day 5"></a></td>
     </tr>
   </table>
 </div>
@@ -60,6 +59,14 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
   - Wireless network standards (Wi-Fi, Bluetooth)
   - Cellular network generations (1G to 5G)
   - SONET, Frame Relay, and other WAN technologies
+
+- [Day 5: Network Hardware and Topologies](./day_005/README.md)
+  - Routers and their components
+  - Modems and connection types
+  - ISP hierarchy (Tier 1, 2, and 3)
+  - Network topologies (Bus, Ring, Star, Mesh)
+  - Last-mile technologies
+
 
 
 ## How to Use This Course
