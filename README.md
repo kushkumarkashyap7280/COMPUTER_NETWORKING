@@ -44,6 +44,13 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
       <td align="center"><a href="./day_013/README.md"><img src="https://img.shields.io/badge/Day%2013-DNS%20System-green" alt="Day 13"></a></td>
       <td align="center"><a href="./day_014/README.md"><img src="https://img.shields.io/badge/Day%2014-Transport%20Layer-blue" alt="Day 14"></a></td>
       <td align="center"><a href="./day_015/README.md"><img src="https://img.shields.io/badge/Day%2015-Network%20Layer-orange" alt="Day 15"></a></td>
+      <td align="center"><a href="./day_016/README.md"><img src="https://img.shields.io/badge/Day%2016-Data%20Link%20Layer-purple" alt="Day 16"></a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="./day_017/README.md"><img src="https://img.shields.io/badge/Day%2017-Physical%20Layer-red" alt="Day 17"></a></td>
+      <td align="center"><a href="./day_018/README.md"><img src="https://img.shields.io/badge/Day%2018-Presentation%20Layer-cyan" alt="Day 18"></a></td>
+      <td align="center"><a href="./day_019/README.md"><img src="https://img.shields.io/badge/Day%2019-Session%20Layer-brightgreen" alt="Day 19"></a></td>
+      <td align="center"><a href="./day_020/README.md"><img src="https://img.shields.io/badge/Day%2020-Network%20Security-yellow" alt="Day 20"></a></td>
     </tr>
   </table>
 </div>
@@ -179,6 +186,66 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
   - Network Address Translation (NAT)
   - ICMP protocol and network diagnostics
 
+- [Day 16: Data Link Layer](./day_016/README.md)
+  - Data Link Layer functions and sublayers
+  - Frame structure and addressing
+  - MAC addressing and ARP
+  - Media Access Control (CSMA/CD, CSMA/CA)
+  - Error detection and correction
+  - Flow control mechanisms
+  - Ethernet (IEEE 802.3) standards
+  - Wireless LANs (IEEE 802.11)
+  - Switches, bridges and VLANs
+  - Spanning Tree Protocol
+
+- [Day 17: Physical Layer](./day_017/README.md)
+  - Transmission media (guided and unguided)
+  - Signal encoding techniques
+  - Digital and analog transmission
+  - Multiplexing (TDM, FDM, WDM)
+  - Switching methods
+  - Transmission modes
+  - Physical network topologies
+  - Physical layer protocols and standards
+  - Bandwidth, throughput, and latency
+  - Signal-to-noise ratio and channel capacity
+
+- [Day 18: Presentation Layer](./day_018/README.md)
+  - Data representation and translation
+  - Character encoding systems
+  - Data compression (lossy and lossless)
+  - Encryption and security
+  - Data formats (XML, JSON, YAML)
+  - Serialization and deserialization
+  - Media formats for images, audio, and video
+  - Protocol converters
+  - TLS/SSL protocols
+  - MIME and content type handling
+
+- [Day 19: Session Layer](./day_019/README.md)
+  - Session establishment and maintenance
+  - Session management services
+  - Dialog control (simplex, half-duplex, full-duplex)
+  - Synchronization and recovery
+  - Session layer protocols (NetBIOS, RPC, SIP)
+  - Authentication and authorization
+  - Session state and cookies
+  - Session security
+  - Modern session implementations
+  - Challenges in session management
+
+- [Day 20: Network Security](./day_020/README.md)
+  - CIA triad (Confidentiality, Integrity, Availability)
+  - Cryptography fundamentals
+  - Symmetric and asymmetric encryption
+  - Hash functions and digital signatures
+  - Public Key Infrastructure (PKI)
+  - Authentication mechanisms
+  - Network attacks and vulnerabilities
+  - Firewalls and intrusion detection systems
+  - VPNs and secure tunneling
+  - Security best practices
+
 ## How to Use This Course
 
 <div align="center">
@@ -225,20 +292,3 @@ MIT License
 
 Copyright (c) 2025 Kush Kumar 
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
