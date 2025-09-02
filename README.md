@@ -1,12 +1,9 @@
-```html
 <div align="center">
   <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzZiZTdkODEzZDg3MWIxNmJkYzJmZTliNDZlYjdiYzQ5YTAxZTEyMCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/3oKIPEqDGUULpEU0aQ/giphy.gif" width="600" height="300" alt="Computer Networking Animation">
   
   <h1>🌐 Computer Networking Course 🌐</h1>
   
   <p>
-    <img src="https://img.shields.io/badge/Status-Active-brightgreen" alt="Status">
-    <img src="https://img.shields.io/badge/Days-4%2F13-blue" alt="Progress">
     <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
   </p>
   
@@ -14,7 +11,6 @@
   
   <hr>
 </div>
-```
 
 A comprehensive course on computer networking fundamentals, protocols, and technologies.
 
@@ -66,6 +62,28 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
   - SONET, Frame Relay, and other WAN technologies
 
 
+## How to Use This Course
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Network_topology_mesh.svg/800px-Network_topology_mesh.svg.png" width="300" alt="Network Topology">
+</div>
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">📚 Step 1</td>
+      <td align="center">🔍 Step 2</td>
+      <td align="center">✏️ Step 3</td>
+      <td align="center">🔄 Step 4</td>
+    </tr>
+    <tr>
+      <td>Follow day-wise progression</td>
+      <td>Study diagrams & examples</td>
+      <td>Complete practice questions</td>
+      <td>Explore additional resources</td>
+    </tr>
+  </table>
+</div>
 
 1. Follow the day-wise progression for a structured learning experience
 2. Each day's content includes theory, diagrams, and practical examples
@@ -81,6 +99,10 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
+
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/License_icon-mit-88x31-2.svg/128px-License_icon-mit-88x31-2.svg.png" alt="MIT License">
+</div>
 
 MIT License
 
