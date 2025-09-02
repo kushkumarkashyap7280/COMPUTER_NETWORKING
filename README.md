@@ -40,6 +40,9 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
       <td align="center"><a href="./day_011/README.md"><img src="https://img.shields.io/badge/Day%2011-HTTP%20%26%20Sockets-purple" alt="Day 11"></a></td>
       <td align="center"><a href="./day_012/README.md"><img src="https://img.shields.io/badge/Day%2012-Email%20%26%20SMTP-orange" alt="Day 12"></a></td>
     </tr>
+    <tr>
+      <td align="center"><a href="./day_013/README.md"><img src="https://img.shields.io/badge/Day%2013-DNS%20System-green" alt="Day 13"></a></td>
+    </tr>
   </table>
 </div>
 
