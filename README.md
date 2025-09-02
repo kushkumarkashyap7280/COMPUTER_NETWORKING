@@ -28,6 +28,7 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
       <td align="center"><a href="./day_003/README.md"><img src="https://img.shields.io/badge/Day%203-IP%20%26%20Ports-green" alt="Day 3"></a></td>
       <td align="center"><a href="./day_004/README.md"><img src="https://img.shields.io/badge/Day%204-Network%20Types-red" alt="Day 4"></a></td>
       <td align="center"><a href="./day_005/README.md"><img src="https://img.shields.io/badge/Day%205-Hardware%20%26%20Topologies-purple" alt="Day 5"></a></td>
+      <td align="center"><a href="./day_006/README.md"><img src="https://img.shields.io/badge/Day%206-OSI%20Model-cyan" alt="Day 6"></a></td>
     </tr>
   </table>
 </div>
@@ -66,6 +67,13 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
   - ISP hierarchy (Tier 1, 2, and 3)
   - Network topologies (Bus, Ring, Star, Mesh)
   - Last-mile technologies
+
+- [Day 6: OSI Model and Protocol Architecture](./day_006/README.md)
+  - OSI model seven layers in detail
+  - Protocols at each layer
+  - OSI vs TCP/IP model comparison
+  - Data encapsulation and decapsulation
+  - Protocol Data Units (PDUs)
 
 
 
