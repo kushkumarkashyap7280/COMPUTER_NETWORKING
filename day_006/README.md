@@ -7,7 +7,7 @@
   
   <p>
     <img src="https://img.shields.io/badge/OSI-7%20Layers-blue" alt="OSI">
-    <img src="https://img.shields.io/badge/TCP%2FIP-4%20Layers-orange" alt="TCP/IP">
+    <img src="https://img.shields.io/badge/TCP%2FIP-4%20%26%205%20Layers-orange" alt="TCP/IP">
     <img src="https://img.shields.io/badge/Protocols-Multiple-green" alt="Protocols">
   </p>
   
@@ -19,6 +19,8 @@
 - [OSI Model Layers in Detail](#osi-model-layers-in-detail)
 - [Protocols at Each Layer](#protocols-at-each-layer)
 - [OSI vs TCP/IP Model](#osi-vs-tcpip-model)
+  - [4-Layer TCP/IP Model](#4-layer-tcpip-model)
+  - [5-Layer TCP/IP Model](#5-layer-tcpip-model)
 - [Data Encapsulation and Decapsulation](#data-encapsulation-and-decapsulation)
 - [Practice Questions](#practice-questions)
 
@@ -324,7 +326,11 @@ graph TB
 
 ## OSI vs TCP/IP Model
 
-The TCP/IP model is a simplified version of the OSI model with four layers instead of seven.
+There are two common representations of the TCP/IP model: the original 4-layer model and the more detailed 5-layer model. Both simplify the OSI model while providing practical frameworks for internet communications.
+
+### 4-Layer TCP/IP Model
+
+The original TCP/IP model has 4 layers and maps to the OSI model as follows:
 
 ```mermaid
 graph LR
@@ -338,7 +344,7 @@ graph LR
         O1[Physical]
     end
     
-    subgraph "TCP/IP Model"
+    subgraph "4-Layer TCP/IP Model"
         T4[Application]
         T3[Transport]
         T2[Internet]
@@ -354,14 +360,124 @@ graph LR
     O1 --> T1
 ```
 
-### Key Differences
+### 5-Layer TCP/IP Model
 
-| OSI Model | TCP/IP Model | Main Functions |
-|-----------|--------------|---------------|
-| Application, Presentation, Session | Application | User interfaces, data encoding, session management |
-| Transport | Transport | End-to-end communication, reliability |
-| Network | Internet | Logical addressing, routing |
-| Data Link, Physical | Network Interface | Physical addressing, medium access, bit transmission |
+The 5-layer TCP/IP model is more commonly used in educational contexts and provides clearer distinctions between the physical and data link layers:
+
+```mermaid
+graph LR
+    subgraph "OSI Model"
+        O7[Application]
+        O6[Presentation]
+        O5[Session]
+        O4[Transport]
+        O3[Network]
+        O2[Data Link]
+        O1[Physical]
+    end
+    
+    subgraph "5-Layer TCP/IP Model"
+        T5[Application]
+        T4[Transport]
+        T3[Network/Internet]
+        T2[Data Link]
+        T1[Physical]
+    end
+    
+    O7 --> T5
+    O6 --> T5
+    O5 --> T5
+    O4 --> T4
+    O3 --> T3
+    O2 --> T2
+    O1 --> T1
+```
+
+### 5-Layer TCP/IP Model in Detail
+
+```mermaid
+graph TB
+    subgraph "5-Layer TCP/IP Model"
+        L5[Layer 5: Application]
+        L4[Layer 4: Transport]
+        L3[Layer 3: Network/Internet]
+        L2[Layer 2: Data Link]
+        L1[Layer 1: Physical]
+    end
+    
+    L5 --> L4
+    L4 --> L3
+    L3 --> L2
+    L2 --> L1
+    
+    subgraph "Protocols"
+        P5[HTTP, FTP, SMTP, DNS, Telnet]
+        P4[TCP, UDP]
+        P3[IP, ICMP, ARP, IGMP]
+        P2[Ethernet, PPP, HDLC]
+        P1[RS-232, Ethernet, Wi-Fi Physical]
+    end
+    
+    L5 -.-> P5
+    L4 -.-> P4
+    L3 -.-> P3
+    L2 -.-> P2
+    L1 -.-> P1
+    
+    subgraph "PDUs"
+        D5[Data]
+        D4[Segment/Datagram]
+        D3[Packet]
+        D2[Frame]
+        D1[Bit]
+    end
+    
+    L5 -.-> D5
+    L4 -.-> D4
+    L3 -.-> D3
+    L2 -.-> D2
+    L1 -.-> D1
+```
+
+#### Layer 5: Application Layer
+- **Function**: Provides network services to applications
+- **Protocols**: HTTP, HTTPS, FTP, SMTP, DNS, Telnet, SSH, SNMP
+- **PDU**: Data
+- **Combines**: OSI Application, Presentation, and Session layers
+
+#### Layer 4: Transport Layer
+- **Function**: End-to-end communication, reliability, flow control
+- **Protocols**: TCP, UDP
+- **PDU**: Segment (TCP) / Datagram (UDP)
+- **Maps to**: OSI Transport layer
+
+#### Layer 3: Network/Internet Layer
+- **Function**: Logical addressing, routing between networks
+- **Protocols**: IP (IPv4, IPv6), ICMP, ARP, IGMP, Routing protocols
+- **PDU**: Packet
+- **Maps to**: OSI Network layer
+
+#### Layer 2: Data Link Layer
+- **Function**: Physical addressing, local network access
+- **Protocols**: Ethernet, PPP, HDLC, Wi-Fi
+- **PDU**: Frame
+- **Maps to**: OSI Data Link layer
+
+#### Layer 1: Physical Layer
+- **Function**: Bit transmission, physical connections
+- **Standards**: RS-232, Ethernet physical, Wi-Fi physical, USB
+- **PDU**: Bit
+- **Maps to**: OSI Physical layer
+
+### Key Differences Between Models
+
+| OSI Model | 4-Layer TCP/IP | 5-Layer TCP/IP | Main Functions |
+|-----------|----------------|----------------|---------------|
+| Application, Presentation, Session | Application | Application | User interfaces, data encoding, session management |
+| Transport | Transport | Transport | End-to-end communication, reliability |
+| Network | Internet | Network/Internet | Logical addressing, routing |
+| Data Link | Network Interface | Data Link | Physical addressing, medium access |
+| Physical | Network Interface | Physical | Bit transmission, cabling, signals |
 
 ## Data Encapsulation and Decapsulation
 
