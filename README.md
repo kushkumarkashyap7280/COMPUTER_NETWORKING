@@ -42,6 +42,8 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
     </tr>
     <tr>
       <td align="center"><a href="./day_013/README.md"><img src="https://img.shields.io/badge/Day%2013-DNS%20System-green" alt="Day 13"></a></td>
+      <td align="center"><a href="./day_014/README.md"><img src="https://img.shields.io/badge/Day%2014-Transport%20Layer-blue" alt="Day 14"></a></td>
+      <td align="center"><a href="./day_015/README.md"><img src="https://img.shields.io/badge/Day%2015-Network%20Layer-orange" alt="Day 15"></a></td>
     </tr>
   </table>
 </div>
@@ -145,6 +147,37 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
   - Email security and authentication (SPF, DKIM, DMARC)
   - End-to-end email workflow
   - Modern email challenges and solutions
+
+- [Day 13: DNS System](./day_013/README.md)
+  - DNS architecture and hierarchy
+  - Root, TLD, and authoritative name servers
+  - DNS resolution process
+  - DNS record types (A, AAAA, MX, CNAME, TXT, etc.)
+  - DNS caching and time-to-live
+  - DNS security extensions (DNSSEC)
+  - DNS troubleshooting tools
+  - Alternative DNS systems
+
+- [Day 14: Transport Layer](./day_014/README.md)
+  - Transport layer fundamentals
+  - TCP and UDP protocols in depth
+  - Multiplexing and demultiplexing
+  - Connection establishment and termination
+  - Flow control and congestion control
+  - TCP reliability mechanisms
+  - Socket programming at transport layer
+  - Practical examples with packet analysis
+
+- [Day 15: Network Layer](./day_015/README.md)
+  - Routing vs. forwarding
+  - Routing tables and forwarding tables
+  - IP addressing and subnetting
+  - Static vs. dynamic routing
+  - Routing algorithms (Dijkstra's, Bellman-Ford)
+  - Routing protocols (RIP, OSPF, BGP)
+  - IPv4 vs. IPv6 comparison
+  - Network Address Translation (NAT)
+  - ICMP protocol and network diagnostics
 
 ## How to Use This Course
 
