@@ -119,22 +119,61 @@ graph TD
 
 ## 3. Common Port to Application Mappings
 
+### Well-Known Ports (0-1023)
+
 | Port | Protocol | Application | Description |
 |------|----------|-------------|-------------|
-| 20/21 | TCP | FTP | File Transfer Protocol |
+| 20/21 | TCP | FTP | File Transfer Protocol (20-data, 21-control) |
 | 22 | TCP | SSH | Secure Shell |
 | 23 | TCP | Telnet | Remote terminal access (insecure) |
-| 25 | TCP | SMTP | Simple Mail Transfer Protocol |
+| 25 | TCP | SMTP | Simple Mail Transfer Protocol (email sending) |
 | 53 | TCP/UDP | DNS | Domain Name System |
 | 67/68 | UDP | DHCP | Dynamic Host Configuration Protocol |
+| 69 | UDP | TFTP | Trivial File Transfer Protocol |
 | 80 | TCP | HTTP | Hypertext Transfer Protocol |
-| 110 | TCP | POP3 | Post Office Protocol (email retrieval) |
-| 143 | TCP | IMAP | Internet Message Access Protocol |
+| 110 | TCP | POP3 | Post Office Protocol version 3 (email retrieval) |
+| 119 | TCP | NNTP | Network News Transfer Protocol |
+| 123 | UDP | NTP | Network Time Protocol |
+| 137-139 | TCP/UDP | NetBIOS | NetBIOS Name/Datagram/Session Service |
+| 143 | TCP | IMAP | Internet Message Access Protocol (email retrieval) |
+| 161/162 | UDP | SNMP | Simple Network Management Protocol |
+| 389 | TCP | LDAP | Lightweight Directory Access Protocol |
 | 443 | TCP | HTTPS | HTTP Secure |
+| 465 | TCP | SMTPS | SMTP over SSL (deprecated, use 587) |
+| 514 | UDP | Syslog | System Logging Protocol |
+| 587 | TCP | SMTP | SMTP with TLS (email submission) |
+| 636 | TCP | LDAPS | LDAP over SSL |
+| 993 | TCP | IMAPS | IMAP over SSL |
+| 995 | TCP | POP3S | POP3 over SSL |
+
+### Registered Ports (1024-49151)
+
+| Port | Protocol | Application | Description |
+|------|----------|-------------|-------------|
+| 1194 | TCP/UDP | OpenVPN | OpenVPN service |
+| 1433 | TCP | MSSQL | Microsoft SQL Server |
+| 1521 | TCP | Oracle | Oracle Database |
+| 1723 | TCP | PPTP | Point-to-Point Tunneling Protocol |
+| 1812/1813 | UDP | RADIUS | Remote Authentication Dial-In User Service |
+| 2049 | TCP/UDP | NFS | Network File System |
+| 3128 | TCP | Squid | Squid proxy server |
 | 3306 | TCP | MySQL | MySQL Database |
 | 3389 | TCP | RDP | Remote Desktop Protocol |
+| 5060/5061 | TCP/UDP | SIP | Session Initiation Protocol (VoIP) |
+| 5222 | TCP | XMPP | Extensible Messaging and Presence Protocol |
 | 5432 | TCP | PostgreSQL | PostgreSQL Database |
+| 5900 | TCP | VNC | Virtual Network Computing |
+| 6379 | TCP | Redis | Redis database |
 | 8080 | TCP | HTTP Alternate | Alternative HTTP port (often for proxies) |
+| 8443 | TCP | HTTPS Alternate | Alternative HTTPS port |
+| 9100 | TCP | Printer | Network printing |
+| 27017 | TCP | MongoDB | MongoDB database |
+
+### Dynamic/Private Ports of Interest
+
+| Port | Protocol | Application | Description |
+|------|----------|-------------|-------------|
+| 49152-65535 | TCP/UDP | Ephemeral | Temporary ports for client connections |
 
 ## 4. Device-to-Application Communication
 

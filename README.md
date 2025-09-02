@@ -27,8 +27,16 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
       <td align="center"><a href="./day_002/README.md"><img src="https://img.shields.io/badge/Day%202-Protocols-orange" alt="Day 2"></a></td>
       <td align="center"><a href="./day_003/README.md"><img src="https://img.shields.io/badge/Day%203-IP%20%26%20Ports-green" alt="Day 3"></a></td>
       <td align="center"><a href="./day_004/README.md"><img src="https://img.shields.io/badge/Day%204-Network%20Types-red" alt="Day 4"></a></td>
+    </tr>
+    <tr>
       <td align="center"><a href="./day_005/README.md"><img src="https://img.shields.io/badge/Day%205-Hardware%20%26%20Topologies-purple" alt="Day 5"></a></td>
       <td align="center"><a href="./day_006/README.md"><img src="https://img.shields.io/badge/Day%206-OSI%20Model-cyan" alt="Day 6"></a></td>
+      <td align="center"><a href="./day_007/README.md"><img src="https://img.shields.io/badge/Day%207-Application%20Protocols-brightgreen" alt="Day 7"></a></td>
+      <td align="center"><a href="./day_008/README.md"><img src="https://img.shields.io/badge/Day%208-Diagnostic%20Tools-yellow" alt="Day 8"></a></td>
+    </tr>
+    <tr>
+      <td align="center"><a href="./day_009/README.md"><img src="https://img.shields.io/badge/Day%209-Network%20Devices-lightgrey" alt="Day 9"></a></td>
+      <td align="center"><a href="./day_010/README.md"><img src="https://img.shields.io/badge/Day%2010-Detailed%20Protocols-blue" alt="Day 10"></a></td>
     </tr>
   </table>
 </div>
@@ -75,6 +83,41 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
   - Data encapsulation and decapsulation
   - Protocol Data Units (PDUs)
 
+- [Day 7: Application Layer Protocols and Client-Server Architecture](./day_007/README.md)
+  - HTTP and HTTPS web protocols
+  - DNS and domain name resolution
+  - Email protocols (SMTP, POP3, IMAP)
+  - FTP, SSH and remote access
+  - Client-server vs peer-to-peer models
+  - Web technologies and API communication
+
+- [Day 8: Network Diagnostic and Monitoring Tools](./day_008/README.md)
+  - Ping and network connectivity testing
+  - Traceroute and path analysis
+  - DNS lookup tools (nslookup, dig)
+  - Network configuration tools (ipconfig, ifconfig)
+  - Advanced tools (Wireshark, nmap, tcpdump)
+  - Network monitoring and troubleshooting methodology
+
+- [Day 9: Network Devices and Infrastructure Components](./day_009/README.md)
+  - Physical layer devices (repeaters, hubs, transceivers)
+  - Data link layer devices (bridges, switches, access points)
+  - Network layer devices (routers, layer 3 switches)
+  - Higher layer devices (gateways, proxies, load balancers, firewalls)
+  - OSI model and device operation
+  - Software-defined networking
+  - Network device management
+
+- [Day 10: Detailed Analysis of Network Protocols](./day_010/README.md)
+  - TCP/IP protocol suite in depth (TCP, IP, UDP, ICMP, ARP)
+  - Web protocols (HTTP, HTTPS, WebSocket)
+  - Email protocols (SMTP, POP3, IMAP)
+  - File transfer protocols (FTP, SFTP, SCP)
+  - Remote access protocols (SSH, Telnet, RDP)
+  - Network management protocols (SNMP, DHCP, DNS)
+  - Network security protocols (SSL/TLS, IPsec)
+  - Protocol header structures and packet formats
+  - Protocol comparison and selection guidelines
 
 
 ## How to Use This Course
