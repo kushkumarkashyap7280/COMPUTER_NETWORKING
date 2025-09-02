@@ -37,6 +37,7 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
     <tr>
       <td align="center"><a href="./day_009/README.md"><img src="https://img.shields.io/badge/Day%209-Network%20Devices-lightgrey" alt="Day 9"></a></td>
       <td align="center"><a href="./day_010/README.md"><img src="https://img.shields.io/badge/Day%2010-Detailed%20Protocols-blue" alt="Day 10"></a></td>
+      <td align="center"><a href="./day_011/README.md"><img src="https://img.shields.io/badge/Day%2011-HTTP%20%26%20Sockets-purple" alt="Day 11"></a></td>
     </tr>
   </table>
 </div>
@@ -118,6 +119,18 @@ A comprehensive course on computer networking fundamentals, protocols, and techn
   - Network security protocols (SSL/TLS, IPsec)
   - Protocol header structures and packet formats
   - Protocol comparison and selection guidelines
+
+- [Day 11: HTTP Protocol Deep Dive & Socket Programming](./day_011/README.md)
+  - HTTP methods in depth (GET, POST, PUT, DELETE, PATCH, etc.)
+  - HTTP headers and their functions
+  - HTTP status codes and error handling
+  - TCP's role in HTTP communication
+  - HTTP evolution (HTTP/1.0 to HTTP/3)
+  - Socket programming fundamentals
+  - Socket vs HTTP communication models
+  - WebSockets for bidirectional communication
+  - RESTful API design principles
+  - Practical code examples for HTTP and sockets
 
 
 ## How to Use This Course
